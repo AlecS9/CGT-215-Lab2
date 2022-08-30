@@ -2,10 +2,25 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    float A;
+    float B;
+    float X;
+    cout << "Solving x for Ax + B = 0" << endl;
+    cout << "Please enter a value for A: ";
+    cin >> A;
+
+    cout << "A=" << A << endl;
+
+    cout << "Please enter a value for B: ";
+    cin >> B;
+
+    X = (0 - B) / A;
+
+    cout << "The answer for x is: ";
+    cout << "x = " << X << endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
